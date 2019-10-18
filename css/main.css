@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.auto-margin {
+  margin: auto;
+}
+
+.box {
+  position: relative;
+  height: 94%;
+  width: 94%;
+  left: 3%;
+  top: 3%;
+}
+
+.grid-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-template-areas:
+    "spot1 spot2 spot3"
+    "spot4 spot5 spot6"
+    "spot7 spot8 spot9";
+}
+
+#spot1 {
+  grid-area: spot1;
+  align-self: start;
+}
+
+#spot2 {
+  grid-area: spot2;
+  align-self: start;
+}
+
+#spot3 {
+  grid-area: spot3;
+  align-self: start;
+}
+
+#spot4 {
+  grid-area: spot4;
+  align-self: center;
+}
+
+#spot5 {
+  grid-area: spot5;
+}
+
+#spot6 {
+  grid-area: spot6;
+  align-self: center;
+}
+
+#spot7 {
+  grid-area: spot7;
+  align-self: end;
+}
+
+#spot8 {
+  grid-area: spot8;
+  align-self: end;
+}
+
+#spot9 {
+  grid-area: spot9;
+  align-self: end;
+}

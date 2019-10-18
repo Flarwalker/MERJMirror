@@ -1,3 +1,75 @@
 {
+  "spots": {
+    "spot1": {
+      "data": "clock",
+      "script": "widgets/clock.js",
+      "config": {
+        "timeFormat": 12,
+        "hourZero": false,
+        "minuteZero": true,
+        "secondZero": true,
+        "displaySeconds": true,
+        "showPeriod": true,
+        "showPeriodUpper": true,
+        "showDate": true
+      }
+    },
+    "spot2": {
+      "data": "",
+      "script": "",
+      "config": {
+
+      }
+    },
+    "spot3": {
+      "data": "",
+      "script": "",
+      "config": {
+
+      }
+    },
+    "spot4": {
+      "data": "",
+      "script": "",
+      "config": {
+
+      }
+    },
+    "spot5": {
+      "data": "disable",
+      "script": "",
+      "config": {
+
+      }
+    },
+    "spot6": {
+      "data": "",
+      "script": "",
+      "config": {
+
+      }
+    },
+    "spot7": {
+      "data": "",
+      "script": "",
+      "config": {
+
+      }
+    },
+    "spot8": {
+      "data": "",
+      "script": "",
+      "config": {
+
+      }
+    },
+    "spot9": {
+      "data": "",
+      "script": "",
+      "config": {
+
+      }
+    }
+  }
 
 }
