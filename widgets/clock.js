@@ -83,12 +83,14 @@ function startTime (spot) {
       time = time + `<span class="seconds">:${second}</span>`;
     }
 
-    if (config.showPeriod) {
-      if (config.showPeriodUpper) {
-        ap = ap === 'am' ? 'AM' : 'PM';
-      }
+    if (config.timeFormat === 12) {
+      if (config.showPeriod) {
+        if (config.showPeriodUpper) {
+          ap = ap === 'am' ? 'AM' : 'PM';
+        }
 
-      time = time + `<span class="ampm">${ap}</span>`;
+        time = time + `<span class="ampm">${ap}</span>`;
+      }
     }
 
     time = time + '</div>';

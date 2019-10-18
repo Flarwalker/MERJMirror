@@ -77,3 +77,24 @@ body {
   grid-area: spot9;
   align-self: end;
 }
+
+.time {
+  font-family: sans-serif;
+  font-size: 60px;
+  text-shadow: 0px, 0px, 1px, #FFF;
+  text-align: center;
+}
+
+.seconds {
+  text-shadow: 0px, 0px, 1px, #888;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.ampm {
+  text-shadow: 0px, 0px, 1px, #888;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+}
